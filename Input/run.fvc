@@ -14,8 +14,8 @@ start time == 01/07/2008 09:00:00
 end time == 01/07/2009 00:00:00
 cfl external == 0.90
 cfl internal == 0.90
-timestep limits == 0.1, 12.
-turbulence update dt == 600                                     ! for GOTM (s)
+timestep limits == 0.1, 10.
+turbulence update dt == 300                                     ! for GOTM (s)
 display dt == 600.  
 
                                                      
