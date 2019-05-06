@@ -14,7 +14,7 @@ start time == 01/07/2008 09:00:00
 end time == 01/07/2009 00:00:00
 cfl external == 0.90
 cfl internal == 0.90
-timestep limits == 0.1, 10.
+timestep limits == 0.1, 5.
 turbulence update dt == 300                                     ! for GOTM (s)
 display dt == 600.  
 
@@ -47,7 +47,7 @@ external water quality model dir == ..\External\AED2\
 !MODEL PARAMETERS
 !_________________________________________________________________
 ! display depth == 1.0e-6
-stability limits == 15.0,15.0
+stability limits == 25.0,25.0
 cell wet/dry depths == 2.0e-2, 2.0e-2                         ! <cells dry depth (m), cell wet depth (m)>
 !cell wet/dry depths == 5.0e-4, 1.0e-1
 g == 9.81
