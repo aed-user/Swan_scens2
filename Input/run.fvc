@@ -40,8 +40,8 @@ equation of state == UNESCO
 
 vertical mixing model == external !parametric !constant 
 external turbulence model dir == ..\External\GOTM\
-!waterqualitymodel == EXTERNAL
-!external water quality model dir == ..\External\AED2\
+waterqualitymodel == EXTERNAL
+external water quality model dir == ..\External\AED2\
 
 
 !MODEL PARAMETERS
@@ -227,7 +227,7 @@ end bc
 output dir == ..\Output\
 
 output == netcdf
-  output parameters == h,v,w,D,Sal,Temp !,WQ_TRC_AGE,WQ_OXY_OXY,WQ_NIT_AMM,WQ_NIT_NIT,WQ_DIAG_TOT_TP,WQ_DIAG_TOT_TN,WQ_DIAG_PHY_TCHLA
+  output parameters == h,v,w,D,Sal,Temp,WQ_TRC_AGE,WQ_OXY_OXY,WQ_NIT_AMM,WQ_NIT_NIT,WQ_DIAG_TOT_TP,WQ_DIAG_TOT_TN,WQ_DIAG_PHY_TCHLA
   output interval == 21600.00 
 end output
 
